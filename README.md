@@ -15,5 +15,5 @@ Displays a hyperlink on top of the article details page.
 
 #Compatibility:
 
- * Requires OXID eShop CE|PE 4.9 & EE 5.2
+ * Requires OXID eShop CE/PE 4.9 / EE 5.2
  * PHP 5.3 or higher
