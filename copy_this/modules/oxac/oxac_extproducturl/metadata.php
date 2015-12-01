@@ -1,9 +1,6 @@
 <?php
 
-/**
- * Metadata version
- */
-$sMetadataVersion = '1.2';
+$sMetadataVersion = '1.1';
 
 /**
  * Module information
@@ -19,7 +16,7 @@ $aModule = array(
 	    		'de'		=>	'Stellt Eingabefelder in der Artikelverwaltung bereit, um eine Webadresse mit Beschriftung oben auf der Detailseite anzuzeigen.',
 	    ),
 	    'thumbnail'		=>	'',
-	    'version'		=>	'0.1.0.1',
+	    'version'		=>	'0.1.1',
 	    'author'		=>	'Johannes Ackermann',
 	    'url'			=>	'http://www.oxid-esales.com/',
 	    'email'			=>	'johannes.ackermann@oxid-esales.com',
