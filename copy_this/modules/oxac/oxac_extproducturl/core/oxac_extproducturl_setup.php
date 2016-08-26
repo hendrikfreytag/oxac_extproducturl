@@ -36,6 +36,10 @@ class oxac_extproducturl_setup
     	// imply multilang field creation. OXID will automatically create all the required fields.
     	$sSql = "ALTER TABLE  `oxarticles` ADD  `OXAC_EXTPRODUCTURLLABEL_1` VARCHAR( 255 ) NOT NULL;";
     	oxDb::getDb()->execute($sSql);
+    	$sSql = "ALTER TABLE  `oxarticles` ADD  `OXAC_EXTPRODUCTURLLABEL_2` VARCHAR( 255 ) NOT NULL;";
+    	oxDb::getDb()->execute($sSql);
+    	$sSql = "ALTER TABLE  `oxarticles` ADD  `OXAC_EXTPRODUCTURLLABEL_3` VARCHAR( 255 ) NOT NULL;";
+    	oxDb::getDb()->execute($sSql);
     	
     	$sSql = "ALTER TABLE  `oxarticles` ADD  `OXAC_EXTPRODUCTURL` VARCHAR( 255 ) NOT NULL;";
     	oxDb::getDb()->execute($sSql);
